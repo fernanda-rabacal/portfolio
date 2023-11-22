@@ -1,0 +1,44 @@
+#home {
+    width: 100%;
+    height: 18rem;
+    background-image: url("https://img-aws.ehowcdn.com/600x375/s3-us-west-1.amazonaws.com/contentlab.studiod/getty/81c8982faa9d4d32bd236a8988bcbcfd.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home > div {
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.589);
+}
+
+.sociais img {
+    width: 3rem;
+}
+
+.tecnologias img {
+    width: 3.5rem;
+}
+
+.link-projeto {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(127, 206, 255, 0.604);
+    transform: translateY(100%);
+    transition: transform 0.4s;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover .link-projeto {
+    transform: translateY(0);
+}
+
+@media (min-width: 768px) {
+    .perfil {
+        width: 35%
+    }
+}
